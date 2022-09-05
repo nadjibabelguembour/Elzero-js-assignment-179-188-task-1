@@ -1,6 +1,6 @@
 async function fetchData() {
     try {
-      let myData = await fetch("/articles.json");
+      let myData = await fetch("articles.json");
       let data = await myData.json();
       data.length = 5;
       for (let i = 0; i < data.length; i++) {
