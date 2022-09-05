@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    div{
+        background-color: #eee;
+        width: 500px;
+        height: auto;
+        margin: .7rem;
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .taskone{
+        background-color: blueviolet;
+        color: white;
+    }
+}
